@@ -1,0 +1,25 @@
+node_modules/
+functions/lib/
+functions/node_modules/
+.firebase/
+*.log
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+.env
+.env.local
+.secret.local
+functions/.secret.local
+
+# Credential/key files
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+service-account*.json
+credentials*.json
+
+# OS files
+.DS_Store
+Thumbs.db
